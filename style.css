@@ -50,6 +50,7 @@ body {
   font-size: var(--fs-18);
   line-height: 1.56;
   padding-bottom: 25rem;
+  scrollbar-color: #ff90bc;
 }
 
 .bg-less-dark {
@@ -227,6 +228,7 @@ svg {
 }
 
 .hero__image {
+  margin-top: 7rem;
   position: absolute;
   top: 0;
   left: 50%;
@@ -286,6 +288,7 @@ h1 > span {
   .hero {
     position: relative;
     margin-block-start: -62px;
+    margin-top: 7rem;
   }
 
   .hero__wrapper {
