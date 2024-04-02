@@ -50,7 +50,9 @@ body {
   font-size: var(--fs-18);
   line-height: 1.56;
   padding-bottom: 25rem;
-  scrollbar-color: #ff90bc;
+  scrollbar-color: #ff90bc var(--bg-body);
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
 }
 
 .bg-less-dark {
@@ -166,6 +168,22 @@ svg {
   margin-block-start: 20px;
 }
 
+.header img {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
 .header__nav {
   display: flex;
   flex-wrap: wrap;
@@ -228,7 +246,7 @@ svg {
 }
 
 .hero__image {
-  margin-top: 7rem;
+  margin-top: 8rem;
   position: absolute;
   top: 0;
   left: 50%;
